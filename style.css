@@ -1,0 +1,208 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    color: forestgreen;
+    font-size: 24px;
+}
+
+header img {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Banner Section */
+section:first-of-type {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+section:first-of-type h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section:first-of-type p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    line-height: 1.5;
+}
+
+section:first-of-type button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section:first-of-type button:hover {
+    background-color: darkgreen;
+}
+
+/* Allergen Alert Section */
+section:nth-of-type(2) {
+    background-color: white;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section:nth-of-type(2) h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(2) p {
+    font-size: 16px;
+}
+
+/* Featured Products Section */
+section:nth-of-type(3) {
+    background-color: teal;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section:nth-of-type(3) h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(3) div {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+section:nth-of-type(3) img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+section:nth-of-type(3) button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section:nth-of-type(3) button:hover {
+    background-color: darkgreen;
+}
+
+/* Delivery & Pickup Section */
+section:nth-of-type(4) {
+    background-color: white;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section:nth-of-type(4) h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(4) p {
+    font-size: 16px;
+}
+
+section:nth-of-type(4) a {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+section:nth-of-type(4) a:hover {
+    text-decoration: underline;
+}
+
+/* About Us Section */
+section:nth-of-type(5) {
+    background-color: lightgray;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section:nth-of-type(5) h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(5) p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Contact Me Section */
+section:nth-of-type(6) {
+    background-color: white;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section:nth-of-type(6) h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(6) p {
+    font-size: 16px;
+}
+
+section:nth-of-type(6) a {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+section:nth-of-type(6) a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: lightgray;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
