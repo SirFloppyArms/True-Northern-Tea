@@ -144,7 +144,7 @@ section:first-of-type {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 125px 120px;
+    padding: 125px 10px;
     z-index: 1;
 }
 
