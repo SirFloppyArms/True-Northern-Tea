@@ -17,7 +17,7 @@ p {
 
 /* Base font sizes for small screens */
 h1 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h2 {
@@ -43,13 +43,13 @@ button {
 }
 
 button:hover {
-    background-color: darkgreen;
+    background-color: #ebebeb;
 }
 
 /* Increase text sizes for medium screens (tablets, 768px and above) */
 @media (min-width: 768px) {
     h1 {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     h2 {
@@ -72,7 +72,7 @@ button:hover {
 /* Further increase text sizes for large screens (desktops, 1024px and above) */
 @media (min-width: 1024px) {
     h1 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     h2 {
@@ -97,6 +97,7 @@ button:hover {
 @media (min-width: 1440px) {
     h1 {
         font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     h2 {
@@ -144,7 +145,7 @@ section:first-of-type {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 125px 10px;
+    padding: 125px 20px;
     z-index: 1;
 }
 
